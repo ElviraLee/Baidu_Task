@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Microsoft YaHei";
+}
+
+.all{
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+
+.team{
+	position: relative;
+	float: left;
+	padding: 20px;
+	width: 200px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+.team-logo, .team-logo img{
+	width: 80px;
+	height: 80px;
+}
+
+.team-name{
+	position: absolute;
+	float: right;
+	width: 60px;
+	right: 20px;
+	top: 20px;
+	margin: 0px;
+}
+
+.team-name a{
+	text-decoration: none;
+	color: #000;
+}
+
+.member{
+	position: relative;
+	float: right;
+	padding: 20px;
+	width: 120px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+.member img{
+	width: 80px;
+	height: 80px;
+}
+
+.member ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+li.other {
+	padding-top: 20px;
+}
+
+.infomation{
+	margin: 0px 140px 0px 220px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
